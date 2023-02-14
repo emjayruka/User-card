@@ -1,0 +1,79 @@
+html {
+    background-color: #f3f8fe;
+}
+
+.container {
+    margin: 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px rgba(201, 208, 236, 0.7);
+}
+
+.img-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 5px solid #e6effa;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    margin-left: 1rem;
+}
+h1 {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.job {
+    font-size: 11px;
+    margin-bottom: 5px;
+    opacity: 0.9;
+}
+
+.rates {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    gap: 3px;
+    
+}
+
+.icons {
+    margin-right: 7px;
+    opacity: 0.9;
+}
+
+h4 {
+    display: inline;
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.about {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+button {
+    font-size: 12px;
+    border: 1px solid gray;
+    padding: 3px;
+    opacity: 0.9;
+}
